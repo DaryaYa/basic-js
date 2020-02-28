@@ -3,6 +3,7 @@ module.exports = function getSeason(date) {
   if(!date) return 'Unable to determine the time of year!'
 
    if (Object.keys(date).length > 0 || isNaN(date)) {
+
     throw new Error();
   }
 
